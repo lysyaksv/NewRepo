@@ -4,7 +4,7 @@ import { Button } from 'reactstrap';
 function RegButton(props) {
   return (
     <div>
-      <Button className="btn-login">{props.type}</Button>
+      <Button className="btn-login">{props.name}</Button>
     </div>
   );
 }

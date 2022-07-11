@@ -1,13 +1,13 @@
 import React from "react";
-import InputDetail from "../shared/Input";
-import RegButton from "../shared/Button";
+import Input from "../shared/Input";
+import Button from "../shared/Button";
 
 function LoginForm() {
   return (
       <div className="form-container">
-        <InputDetail type="text" placeholder="Email address or phone number" />
-        <InputDetail type="password" placeholder="Password" />
-        <RegButton type="Register" />
+        <Input type="text" placeholder="Email address or phone number" />
+        <Input type="password" placeholder="Password" />
+        <Button name="Register" />
     </div>
   );
 }
