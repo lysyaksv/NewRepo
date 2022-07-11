@@ -1,11 +1,12 @@
 import React from "react";
+import { Button } from 'reactstrap';
 
-function Button() {
+function RegButton(props) {
   return (
     <div>
-      <button className="btn-login">Register</button>
+      <Button className="btn-login">{props.type}</Button>
     </div>
   );
 }
 
-export default Button;
+export default RegButton;
