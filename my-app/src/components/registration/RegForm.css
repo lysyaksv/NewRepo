@@ -1,0 +1,38 @@
+
+Form {
+  background-color: #fff;
+  box-shadow: 0px 5px 8px 3px #aaa;
+  margin-left: 35%;
+  margin-top: 5%;
+  height: 500px;
+  width: 425px;
+  z-index: 10;
+  position: relative;
+}
+
+.title {
+  font-size: 32px;
+  padding: 10px 10px 0 10px;
+}
+
+.sub-title {
+  color: #606770;
+  margin-left: 10px;
+}
+
+hr {
+  margin-top: 10px;
+  opacity: 20%;
+}
+
+.name {
+  background: #e6e6ee;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 15px;
+  height: 35px;
+  margin-left: 12px;
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 180px;
+}
