@@ -1,8 +1,8 @@
 import React from "react";
 import { Input } from "reactstrap";
 
-function InputDetail (props) {
-  return <Input type={props.type} placeholder={props.placeholder} />;
+function InputDetail ({type, placeholder}) {
+  return <Input type={type} placeholder={placeholder} />;
 }
 
 export default InputDetail;

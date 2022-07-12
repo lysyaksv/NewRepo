@@ -1,10 +1,10 @@
 import React from "react";
 import { Button } from 'reactstrap';
 
-function RegButton(props) {
+function RegButton({name}) {
   return (
     <div>
-      <Button className="btn-login">{props.name}</Button>
+      <Button className="btn-login">{name}</Button>
     </div>
   );
 }
